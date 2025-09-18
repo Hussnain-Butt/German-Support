@@ -129,11 +129,7 @@ const Header = ({ onScheduleClick }) => {
             {/* Logo for Mobile/Tablet */}
             <a href="/" className="lg:hidden">
               {/* Assuming you have an inverted logo for dark backgrounds */}
-              <img
-                src="/src/assets/GermanSport-logo-white.webp"
-                alt="German Sport Logo"
-                className="h-12 w-auto"
-              />
+              <img src={Logo} alt="German Sport Logo" className="h-12 w-auto" />
             </a>
 
             {/* Desktop Navigation */}
