@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { FaFacebookF, FaGoogle, FaInstagram, FaYelp, FaBars, FaTimes } from 'react-icons/fa'
 import { FiPhone, FiMapPin, FiClock, FiChevronDown, FiUser } from 'react-icons/fi'
+import Logo from '../assets/GermanSport-logo.jpg'
 
 // Navigation links data (No changes needed here)
 const navLinks = [
@@ -118,11 +119,7 @@ const Header = ({ onScheduleClick }) => {
         {/* ===== LOGO AREA (Desktop) ===== */}
         <div className="hidden lg:flex justify-center items-center py-6 bg-white border-b border-gray-200">
           <a href="/" aria-label="German Sport Home">
-            <img
-              src="/src/assets/GermanSport-logo.webp"
-              alt="German Sport Specialists Logo"
-              className="h-[45px] w-auto"
-            />
+            <img src={Logo} alt="German Sport Specialists Logo" className="h-[45px] w-auto" />
           </a>
         </div>
 

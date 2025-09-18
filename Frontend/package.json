@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "tailwind:init": "tailwindcss init -p"
+    "tailwind:init": "tailwindcss init -p",
+    "start": "npx serve -s dist -l 8080"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
